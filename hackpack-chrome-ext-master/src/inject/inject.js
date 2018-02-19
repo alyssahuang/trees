@@ -45,9 +45,9 @@
  *                  replaced by butt
  */
 function modifyText(text, settings) {
-	text = text.replace("cal", "butt");
-	text = text.replace("Cal", "Butt");
-	text = text.replace("CAL", "BUTT");
+	text = text.replace("stanford", "stanturd");
+	text = text.replace("Stanford", "Stanturd");
+	text = text.replace("STANFORD", "STANTURD");
 
     for (key in settings) {
 	    text = text.replace(new RegExp(key, "gi"), settings[key]);
